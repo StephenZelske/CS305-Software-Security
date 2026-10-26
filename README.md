@@ -1,1 +1,15 @@
 # CS305-Software-Security
+Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+Artemis Financial was the client, and they are a consulting company that develops individualized financial plans for its customers. The issue that the company wanted me to address was to protect the company from external threats.
+What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
+What I did well in finding my client's software security vulnerabilities was running a dependency check, and identifying what the vulnerabilities were, and what level of risk they were. It is important to code securely because in the long run, that will save substantial money, and increase consumer confidence in your software. The value that software security adds to a company's well-being is not damaging their reputation, and having the ability to protect their user's data, thus creating opportunity for more business with new users.
+Which part of the vulnerability assessment was challenging or helpful to you?
+The part of the vulnerability assessment that was helpful to me was reading the HTML file, and having an assessment that was generated naming every vulnerability found, what type of vulnerability it was, and what the risk was of the vulnerability. 
+How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+I increased layers of security by having input validation and least privilege access. In the future, I would use the OWASP dependency check to assess vulnerabilities, and carefully examine each vulnerability, and what risk it imposed on the software.
+How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+To make certain that the code and software application were functional and secure, I ran it on a local host to ensure that it read the coding properly. After refactoring the code I ran another dependency check to make sure that there were no new vulnerabilities discovered in my refactored code. 
+What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+Using the OWASP dependency check was very helpful to learn how to check for vulnerabilities, and also, what they meant. Another coding practice I used that I would find helpful in future assignments or tasks, was running code in Eclipse as a Maven build, and what that meant. 
+Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+I would show them that I know how to create a self-signed certificate, run an OWASP dependency check, and suppress minor vulnerabilities in the vulnerability report. 
